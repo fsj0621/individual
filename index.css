@@ -1,0 +1,42 @@
+div#container_1 {
+    height: 300px;
+}
+
+/* 流体布局 */
+div#container_1 div.inner div#container_1_1 {
+    width: 320px;
+    height: 300px;
+    float: left;
+    background-color: #fff;
+    background-image: url(../image/border.png);
+    border-top: 4px solid #1b4326;
+}
+
+div#container_1 div.inner div#container_1_2 {
+    width: 230px;
+    height: 220px;
+    float: left;
+    background-color: #dff4e3;
+    border-top: 4px solid #1b4326;
+    padding:40px 60px;
+}
+
+div#container_1 div.inner div#container_1_3 {
+    width: 330px;
+    height: 150px;
+    float: left;
+    background-color: #dff4e3;
+    border-top: 4px solid #1b4326;
+    padding: 75px 0;
+}
+
+div#container_2 {
+    height: 340px;
+    background-color: #e9f4eb;
+    padding: 40px;
+}
+
+td{
+    padding: 10px 0 10px 50px;
+    font-size: 14px;
+}
